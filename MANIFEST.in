@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include daileemart *.css
+recursive-include daileemart *.csv
+recursive-include daileemart *.html
+recursive-include daileemart *.ico
+recursive-include daileemart *.js
+recursive-include daileemart *.json
+recursive-include daileemart *.md
+recursive-include daileemart *.png
+recursive-include daileemart *.py
+recursive-include daileemart *.svg
+recursive-include daileemart *.txt
+recursive-exclude daileemart *.pyc
